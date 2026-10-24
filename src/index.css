@@ -1,0 +1,13 @@
+body { margin: 0; font-family: system-ui, sans-serif; }
+.app { min-height: 100vh; padding: 20px; }
+.app.light { background: #f4f6fb; color: #1a1a2e; }
+.app.dark { background: #1a1a2e; color: #eeeeee; }
+.card { background: rgba(128,128,128,0.12); border-radius: 12px; padding: 16px; margin: 16px 0; }
+header { display: flex; gap: 16px; align-items: center; justify-content: space-between; }
+form, .card select { display: flex; gap: 8px; margin-bottom: 8px; }
+input, select, button { padding: 8px; border-radius: 6px; border: 1px solid #999; }
+button { cursor: pointer; }
+ul { list-style: none; padding: 0; }
+.task { display: flex; gap: 8px; align-items: center; padding: 6px 0; }
+.task.high { border-left: 4px solid crimson; padding-left: 8px; }
+.toast { position: fixed; top: 16px; right: 16px; background: #333; color: #fff; padding: 10px 16px; border-radius: 8px; }
